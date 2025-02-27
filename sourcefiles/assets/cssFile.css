@@ -1,0 +1,136 @@
+.cover {
+    background-color: rgba(255, 255, 255, 0.891);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    margin: 5px;
+}
+
+.titleArea {
+    text-align: center;
+    height: fit-content;
+}
+
+#courseParticipation {
+    width: 50vw;
+    height: 700px;
+    border: 10px solid green;
+}
+
+#individualParticipation {
+    width: 70vw;
+    height: 700px;
+    border: 10px solid grey;
+    padding-right: 150px;
+}
+
+#div1 {
+    margin-top: 5px;
+    padding-top: 5px;
+    justify-content: space-around;
+}
+
+.control {
+    margin-right: auto;
+    margin-left: 0;
+    margin-top: 5px;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 5px;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    
+}
+
+#filterbetweenassignments {
+    display: grid;
+    grid-auto-flow: row;
+    /*gap: 10px;*/
+    margin-right: auto;
+    margin-left: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.block {
+    background-color: white;
+    border: 1px solid rgba(179, 176, 176, 0.881);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: fit-content;
+    width: 100vw;
+    margin: 5px;
+}
+
+.block_row {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+    height: fit-content;
+    width: fit-content;
+    margin: 10px;
+}
+
+.graph {
+    /*border: 0.5px solid rgba(218, 207, 207, 0.643);
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    margin: 5px;
+    row-gap: 5px;
+    padding-top: 10px;
+    padding-left: 10px;*/
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+    row-gap: 10px;
+}
+
+#predict {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+    row-gap: 10px;
+}
+
+.custom-tabs-container {
+    width: 85%;
+}
+.custom-tabs {
+    border-top-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: #f9f9f9;
+    padding: 0px 24px;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+
+
+.tabs-container {
+    height: '44px'
+}
+.custom-tab {
+    border-bottom: '1px solid #d6d6d6';
+    padding: '6px';
+    font-weight: 'bold'
+}
+
+.tab_selected_style {
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+    background-color: #119DFF;
+    color: 'white';
+    padding: '6px'
+}

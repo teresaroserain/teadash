@@ -1,0 +1,1 @@
+This python project is built as an additional function for Canvas learning management system. The code retrieves the data via Canvas APIs, pre-processes the data, applies the decision tree algorithm, and visualizes the data using Plotly. Currently, the project is run as a web application using dash and flask libraries. 
